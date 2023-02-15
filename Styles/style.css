@@ -581,6 +581,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  margin-bottom: 4rem;
 }
 
 .main-btn {
