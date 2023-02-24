@@ -18,6 +18,7 @@
   --color-grey4: #454e56;
   --color-grey5: #2a2e35;
   --color-grey6: #12181b;
+  --color-grey7: #454e56;
   --color-btn-icon: #ffffff;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
@@ -35,6 +36,7 @@
   --color-grey4: #ffffff;
   --color-grey5: #f8f8f8;
   --color-grey6: #12181b;
+  --color-grey7: #103249;
   --color-btn-icon:#ffffff;
 }
 
@@ -312,7 +314,7 @@ section {
 .about-skills .skill-images .skill-image:hover {
   cursor: default;
   transform: translateY(-5px);
-  border: 1px solid var(--color-Secondary);
+  border: 2px solid var(--color-Secondary);
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
 }
 .about-skills .skill-images .skill-image .skill-text {
@@ -325,7 +327,6 @@ section {
   height: 90%;
   width: 70%;
   margin-left: 1.2rem;
-  background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
 }
 .about-skills .skill-images .skill-image .images img {
@@ -526,7 +527,7 @@ section {
   display: flex;
   align-items: center;
   color: white;
-  background-color: var(--color-grey4);
+  background-color: var(--color-grey7);
   cursor: pointer;
   justify-content: center;
   height: 50px;
