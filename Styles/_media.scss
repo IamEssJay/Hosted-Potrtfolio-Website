@@ -1,4 +1,10 @@
 
+@media screen and (max-width: 445px){
+    .contact-item{
+        align-items: flex-start !important;
+        flex-direction: column ;
+    }
+}
 @media screen and (max-width: 600px) {
     .about-container{
         grid-template-columns: 1fr;
@@ -96,6 +102,12 @@
             }
         }
     }
+    .submit-btn{
+        a{
+        margin-bottom: 5.3rem;
+     }
+    }
+     
 
     .about-skills .skill-images{
         grid-template-columns: repeat(3, 1fr);
